@@ -1,0 +1,115 @@
+html,
+body {
+  height: 100%;
+  background-image: url("../img/fondo.jpg");
+  background-size: cover;
+
+}
+
+.h8{ 
+  background-color: black !important;
+  color: #2BF70A !important;         /*Color de las letras de los botones  de la central */
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  background-color: #737460 !important;
+  border-radius: 40px 40px 40px 40px !important;
+  border: 2px solid #49494A;
+
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px !important;
+}
+/*fecha registro*/
+.input-group-append {
+    margin-left: -36px !important;
+    margin-top: 12px !important;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-top: 10px;
+  margin-bottom: -1px;
+  border-radius: 10px;
+}
+.form-signin input[type="password"] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.form-signin input[id="fechanac"] {
+  margin-top: 10px;
+  margin-bottom: -1px;
+  border-radius: 10px;
+}
+
+.form-signin input[type="text"] {
+  margin-top: 10px;
+  margin-bottom: -1px;
+  border-radius: 10px;
+}
+
+#iniciarsesion{
+  color: black;
+  cursor: pointer;
+}
+
+.btn-success{
+  margin-right: 10px;
+}
+
+/*botones de registrar e  Iniciar sesion*/
+.btn-info {
+  border-radius: 30px !important;
+  color:#85894B !important;
+  background-color: #85894B !important;
+  border-color:  #85894B !important;
+
+}
+/*Botones login es alrevez :V*/
+.btn-primary {
+  color: black !important;
+  background-color: #ECCD07 !important;
+  border-color: #ECCD07 !important;
+  border-radius: 30px !important;
+}
+.btn-secondary {
+  color: black !important;
+  background-color: #ECCD07 !important;
+  border-color:  #ECCD07!important;
+  border-radius: 30px !important;
+}
+
+.abcRioButtonLightBlue {
+  height: 100% !important;
+  width: 80% !important;
+    background-color: #ECCD07 !important;
+    color: black !important;
+    border-radius: 30px 30px 200px 200px !important;
+    -moz-border-radius: 200px 30px 200px 200px !important;
+    -webkit-border-radius: 200px 200px 200px 200px !important;
+    border: 2px green !important;
+}
